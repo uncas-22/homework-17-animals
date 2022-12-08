@@ -1,5 +1,4 @@
 package animals;
-package animals;
 
 import java.util.Objects;
 
