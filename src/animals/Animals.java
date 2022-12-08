@@ -5,10 +5,10 @@ import java.util.Objects;
 public class Animals {
     private String nameAnimals;
     private int ageAnimals;
-    public Animals (String name, int age) {
-        setName(name);
-        if (age > 0) {
-            this.age = age;
+        public Animals(String nameAnimals, int ageAnimals) {
+                setNameAnimals(nameAnimals);
+                if (ageAnimals > 0) {
+                        this.ageAnimals = ageAnimals;
 } else{
         this.age=0;
         }
