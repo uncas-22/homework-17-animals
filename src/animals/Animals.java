@@ -32,14 +32,14 @@ public String getNameAnimals(){
         return nameAnimals;
         }
 
-public void setName(String name){
-        if(name!=null&&!name.isBlank()&&!name.isEmpty()){
-        this.name=name;
+        public void setNameAnimals(String nameAnimals) {
+                if (nameAnimals != null && !nameAnimals.isBlank() && !nameAnimals.isEmpty()) {
+                        this.nameAnimals = nameAnimals;
         }
         }
 
-public int getAge(){
-        return age;
+        public int getAgeAnimals() {
+                return ageAnimals;
         }
 
 @Override
