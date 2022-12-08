@@ -10,7 +10,7 @@ public class Animals {
                 if (ageAnimals > 0) {
                         this.ageAnimals = ageAnimals;
 } else{
-        this.age=0;
+                        this.ageAnimals = 0;
         }
         }
 
